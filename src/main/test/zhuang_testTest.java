@@ -10,7 +10,8 @@ public class zhuang_testTest {
     public void init() {
         zhuang_test test1 =new zhuang_test();
         int[] arr = test1.init(7);
-        int temp= 1;
+        int temp;
+        temp = 1;
         for(int i=0; i<7; i++)
         {
             if(arr[i]<50&&arr[i]>=0)
